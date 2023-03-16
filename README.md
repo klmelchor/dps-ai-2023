@@ -5,4 +5,4 @@ Welcome!
 
 This repository contains the source code for the DPS AI Engineer Challenge.
 
-Added this line to check for replicability.
+The Dockerfile to create the necessary image is also included in the repository. The Docker image was deployed using AWS ECR and AWS App Runner.

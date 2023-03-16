@@ -4,10 +4,12 @@ import accident_prediction as acc_pred
 
 app = Flask(__name__)
 
+# dummy function to check endpoint availability
 @app.route('/')
 def home():
     return "Hello World"
 
+# function to handle post requests
 @app.route('/api/task', methods=['POST'])
 def get_query():
     query_data = request.get_json()
